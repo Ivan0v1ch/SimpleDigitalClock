@@ -1,0 +1,36 @@
+@font-face {
+    font-family: 'Digital7';
+    src: url(../assets/fonts/digital-7.ttf);
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Digital7';
+}
+
+
+.main{
+    background-color: black;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.digitalClock{
+    
+    color: red;
+    font-size: 200px;
+}
+
+
+@media (max-width : 900px) {
+    .digitalClock{
+        color: red;
+        font-size: 80px;
+    }
+}
